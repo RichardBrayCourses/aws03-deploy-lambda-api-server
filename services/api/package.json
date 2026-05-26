@@ -1,0 +1,16 @@
+{
+  "name": "@services/api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx  src/app.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "tsx": "4.21.0",
+    "@types/express": "^5.0.6"
+  }
+}
