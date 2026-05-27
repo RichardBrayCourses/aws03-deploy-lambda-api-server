@@ -1,8 +1,7 @@
 import { app } from "./app";
 
-const PORT = 3001;
+const port = 3001;
 
-app.listen(PORT, () => {
-  console.log(`api server running locally on http://localhost:${PORT}`);
-  console.log(`Health check: http://localhost:${PORT}/health`);
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
 });
