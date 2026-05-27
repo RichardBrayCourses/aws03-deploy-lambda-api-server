@@ -16,7 +16,7 @@ export class ApiStack extends Stack {
     const apiFunction = new NodejsFunction(this, "ApiFunction", {
       entry: join(__dirname, "..", "..", "..", "services", "api", "src", "index.ts"),
       handler: "handler",
-      runtime: Runtime.NODEJS_22_X,
+      runtime: Runtime.NODEJS_24_X,
       timeout: Duration.seconds(10),
     });
 

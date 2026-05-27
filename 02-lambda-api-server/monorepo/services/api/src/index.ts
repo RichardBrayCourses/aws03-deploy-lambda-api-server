@@ -1,4 +1,4 @@
-import serverlessExpress from "@vendia/serverless-express";
+import serverlessExpress from "@codegenie/serverless-express";
 import type { Handler } from "aws-lambda";
 import { app } from "./app";
 

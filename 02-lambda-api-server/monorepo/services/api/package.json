@@ -8,7 +8,7 @@
     "package-cleanup": "rm -rf node_modules "
   },
   "dependencies": {
-    "@vendia/serverless-express": "^4.12.6",
+    "@codegenie/serverless-express": "^5.0.0",
     "aws-cdk-lib": "2.235.1",
     "express": "^5.2.1"
   },
